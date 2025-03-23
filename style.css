@@ -1,0 +1,128 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    line-height: 1.87; /* Aumenta la altura de línea en proporción */
+    font-size: 22px; /* 20px * 1.1 = 22px */
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabs button {
+    background: none;
+    border: none;
+    padding: 13px 22px; /* Ajuste ligero del padding */
+    margin-right: 15px;
+    font-size: 1.32em; /* 1.2em * 1.1 = 1.32em */
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+.tabs button.active {
+    border-bottom: 3px solid #007aff;
+    color: #007aff;
+}
+
+.filters {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.filters button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 11px 18px; /* Ajuste ligero del padding */
+    font-size: 1.21em; /* 1.1em * 1.1 = 1.21em */
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.filters button.active {
+    background-color: #007aff;
+    color: white;
+    border-color: #007aff;
+}
+
+.flight-list {
+    margin-top: 25px;
+}
+
+.flight-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 22px; /* Ajuste ligero del padding */
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    border-bottom: none;
+}
+
+.flight-item:hover {
+    transform: scale(1.02);
+}
+
+.flight-item h3 {
+    margin-top: 0;
+    margin-bottom: 9px;
+    font-size: 1.54em; /* 1.4em * 1.1 = 1.54em */
+}
+
+.flight-item p {
+    margin-bottom: 6px;
+    font-size: 1.21em; /* 1.1em * 1.1 = 1.21em */
+    color: #333;
+    line-height: 0.5; /* Reduce aún más el espaciado entre líneas */
+}
+
+.flight-item .a-tiempo {
+    color: green;
+    font-weight: bold;
+}
+
+.flight-item .retrasado {
+    color: red;
+    font-weight: bold;
+}
+
+.flight-details-container {
+    margin-top: 13px;
+    padding: 20px; /* Ajuste ligero del padding */
+    border: 1px solid #eee;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    font-size: 1.21em; /* 1.1em * 1.1 = 1.21em */
+    color: #555;
+}
+
+.flight-details-container.hidden {
+    display: none;
+}
+
+.flight-details-container p {
+    margin-bottom: 7px;
+    font-size: 1em; /* Mantener este tamaño o aumentarlo ligeramente según se vea */
+    line-height: 0.5; /* Reduce el espaciado entre líneas */
+}
+
+.flight-details-container strong {
+    font-weight: bold;
+    color: #333;
+}

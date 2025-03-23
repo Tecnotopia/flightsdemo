@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuelos Viva Aerobus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icon.png"> </head>
+<body>
+    <header>
+        <h1>Vuelos Viva Aerobus</h1>
+    </header>
+
+    <nav class="tabs">
+        <button id="departures-tab" class="active">Salidas</button>
+        <button id="arrivals-tab">Llegadas</button>
+    </nav>
+
+    <div class="filters">
+        <button id="filter-all" class="active">Todos</button>
+        <button id="filter-domestic">Nacionales</button>
+        <button id="filter-international">Internacionales</button>
+        <button id="filter-on-time">A Tiempo</button>
+        <button id="filter-delayed">Retrasados</button>
+    </div>
+
+    <div id="flight-list">
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
