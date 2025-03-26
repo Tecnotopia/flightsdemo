@@ -47,7 +47,7 @@ body {
     background-color: #fff;
     border: 1px solid #ccc;
     padding: 11px 18px; /* Ajuste ligero del padding */
-    font-size: 1.1em; /* 1.1em * 1.1 = 1.21em */
+    font-size: 1em; /* 1.1em * 1.1 = 1.21em */
     cursor: pointer;
     border-radius: 6px;
     transition: background-color 0.3s ease;
@@ -108,7 +108,7 @@ body {
     border: 1px solid #eee;
     background-color: #f9f9f9;
     border-radius: 10px;
-    font-size: 1.21em; /* 1.1em * 1.1 = 1.21em */
+    font-size: 1em; /* 1.1em * 1.1 = 1.21em */
     color: #555;
 }
 
