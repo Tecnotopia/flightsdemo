@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
             arrivalTime: '16:00',
             status: 'Retrasado',
             isDomestic: false,
-            extraInfo: 'Retraso debido a condiciones climáticas'
+            extraInfo: 'Retraso por condiciones climáticas'
         },
         {
             id: 4,
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
             arrivalTime: '15:00',
             status: 'A tiempo',
             isDomestic: false,
-            extraInfo: 'Vuelo internacional, pasajeros deben pasar por aduana'
+            extraInfo: 'Pasajeros deben pasar por aduana'
         },
         {
             id: 5,
