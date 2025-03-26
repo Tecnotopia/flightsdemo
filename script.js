@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
             arrivalTime: '08:15',
             status: 'A tiempo',
             isDomestic: true,
-            extraInfo: 'Puerta 12, a las 06:30'
+            extraInfo: 'Puerta 12, Embarque comienza a las 06:30'
         },
         {
             id: 2,
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
             arrivalTime: '16:00',
             status: 'Retrasado',
             isDomestic: false,
-            extraInfo: 'Condiciones climáticas'
+            extraInfo: 'Retraso por condiciones climáticas'
         },
         {
             id: 4,
